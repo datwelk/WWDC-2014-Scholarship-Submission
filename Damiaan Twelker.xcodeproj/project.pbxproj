@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		907C7E8F18FC9762005EA321 /* bg3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 907C7E8E18FC9762005EA321 /* bg3@2x.png */; };
+		907C7E9518FC9875005EA321 /* psg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 907C7E9418FC9875005EA321 /* psg@2x.png */; };
+		907C7E9918FC9E26005EA321 /* tweebie@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 907C7E9818FC9E26005EA321 /* tweebie@2x.png */; };
+		907C7E9B18FC9EDA005EA321 /* twerkball@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 907C7E9A18FC9EDA005EA321 /* twerkball@2x.png */; };
+		907C7E9D18FCA003005EA321 /* outlet@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 907C7E9C18FCA003005EA321 /* outlet@2x.png */; };
+		907C7E9F18FCA0AF005EA321 /* Icon-120@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 907C7E9E18FCA0AF005EA321 /* Icon-120@2x.png */; };
+		908BA1C718FB1570005071DA /* NSString+DTWAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 908BA1C618FB1570005071DA /* NSString+DTWAdditions.m */; };
+		908BA1CB18FB20E9005071DA /* CAMediaTimingFunction+DTWAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 908BA1CA18FB20E9005071DA /* CAMediaTimingFunction+DTWAdditions.m */; };
+		908BA1CE18FBE722005071DA /* DTWVolumeObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 908BA1CD18FBE722005071DA /* DTWVolumeObserver.m */; };
+		908BA1D018FBE786005071DA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908BA1CF18FBE786005071DA /* AVFoundation.framework */; };
+		908BA1D218FBEADF005071DA /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908BA1D118FBEADF005071DA /* MediaPlayer.framework */; };
+		908BA1DB18FBF678005071DA /* restart-arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 908BA1DA18FBF678005071DA /* restart-arrow@2x.png */; };
+		908BA1DE18FC08D9005071DA /* DTWButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 908BA1DD18FC08D9005071DA /* DTWButton.m */; };
+		90B0502018FA859700E13CE2 /* DTWStoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B0501F18FA859700E13CE2 /* DTWStoryView.m */; };
+		90B0502818FAA4AE00E13CE2 /* DTWStory.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B0502718FAA4AE00E13CE2 /* DTWStory.m */; };
+		90B0502B18FAA50300E13CE2 /* DTWStoryTeller.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B0502A18FAA50300E13CE2 /* DTWStoryTeller.m */; };
+		90B0502E18FAA5CD00E13CE2 /* DTWStorySection.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B0502D18FAA5CD00E13CE2 /* DTWStorySection.m */; };
+		90B0503118FAA61000E13CE2 /* DTWStoryParagraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B0503018FAA61000E13CE2 /* DTWStoryParagraph.m */; };
+		90B0503318FAD3F100E13CE2 /* bg1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90B0503218FAD3F100E13CE2 /* bg1@2x.png */; };
+		90B2269618FA7E0500AACC18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90B2269518FA7E0500AACC18 /* Foundation.framework */; };
+		90B2269818FA7E0500AACC18 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90B2269718FA7E0500AACC18 /* CoreGraphics.framework */; };
+		90B2269A18FA7E0500AACC18 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90B2269918FA7E0500AACC18 /* UIKit.framework */; };
+		90B226A018FA7E0500AACC18 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 90B2269E18FA7E0500AACC18 /* InfoPlist.strings */; };
+		90B226A218FA7E0600AACC18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B226A118FA7E0500AACC18 /* main.m */; };
+		90B226A618FA7E0600AACC18 /* DTWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B226A518FA7E0600AACC18 /* DTWAppDelegate.m */; };
+		90B226A818FA7E0600AACC18 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90B226A718FA7E0600AACC18 /* Images.xcassets */; };
+		90B226AF18FA7E0600AACC18 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90B226AE18FA7E0600AACC18 /* XCTest.framework */; };
+		90B226B018FA7E0600AACC18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90B2269518FA7E0500AACC18 /* Foundation.framework */; };
+		90B226B118FA7E0600AACC18 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90B2269918FA7E0500AACC18 /* UIKit.framework */; };
+		90B226B918FA7E0600AACC18 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 90B226B718FA7E0600AACC18 /* InfoPlist.strings */; };
+		90B226BB18FA7E0600AACC18 /* Damiaan_TwelkerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B226BA18FA7E0600AACC18 /* Damiaan_TwelkerTests.m */; };
+		90B226C618FA7E8E00AACC18 /* DTWStoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B226C518FA7E8E00AACC18 /* DTWStoryViewController.m */; };
+		90B226C818FA80F300AACC18 /* bg2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90B226C718FA80F300AACC18 /* bg2@2x.png */; };
+		90B226CC18FA81F700AACC18 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B226CB18FA81F700AACC18 /* UIImage+ImageEffects.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		90B226B218FA7E0600AACC18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90B2268A18FA7E0500AACC18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90B2269118FA7E0500AACC18;
+			remoteInfo = "Damiaan Twelker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		907C7E8E18FC9762005EA321 /* bg3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg3@2x.png"; sourceTree = "<group>"; };
+		907C7E9418FC9875005EA321 /* psg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "psg@2x.png"; sourceTree = "<group>"; };
+		907C7E9818FC9E26005EA321 /* tweebie@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tweebie@2x.png"; sourceTree = "<group>"; };
+		907C7E9A18FC9EDA005EA321 /* twerkball@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "twerkball@2x.png"; sourceTree = "<group>"; };
+		907C7E9C18FCA003005EA321 /* outlet@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "outlet@2x.png"; sourceTree = "<group>"; };
+		907C7E9E18FCA0AF005EA321 /* Icon-120@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-120@2x.png"; sourceTree = "<group>"; };
+		908BA1C518FB1570005071DA /* NSString+DTWAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DTWAdditions.h"; sourceTree = "<group>"; };
+		908BA1C618FB1570005071DA /* NSString+DTWAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DTWAdditions.m"; sourceTree = "<group>"; };
+		908BA1C918FB20E9005071DA /* CAMediaTimingFunction+DTWAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAMediaTimingFunction+DTWAdditions.h"; sourceTree = "<group>"; };
+		908BA1CA18FB20E9005071DA /* CAMediaTimingFunction+DTWAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAMediaTimingFunction+DTWAdditions.m"; sourceTree = "<group>"; };
+		908BA1CC18FBE722005071DA /* DTWVolumeObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTWVolumeObserver.h; sourceTree = "<group>"; };
+		908BA1CD18FBE722005071DA /* DTWVolumeObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTWVolumeObserver.m; sourceTree = "<group>"; };
+		908BA1CF18FBE786005071DA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		908BA1D118FBEADF005071DA /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		908BA1DA18FBF678005071DA /* restart-arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "restart-arrow@2x.png"; sourceTree = "<group>"; };
+		908BA1DC18FC08D9005071DA /* DTWButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTWButton.h; sourceTree = "<group>"; };
+		908BA1DD18FC08D9005071DA /* DTWButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTWButton.m; sourceTree = "<group>"; };
+		90B0501E18FA859700E13CE2 /* DTWStoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTWStoryView.h; sourceTree = "<group>"; };
+		90B0501F18FA859700E13CE2 /* DTWStoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTWStoryView.m; sourceTree = "<group>"; };
+		90B0502618FAA4AE00E13CE2 /* DTWStory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTWStory.h; sourceTree = "<group>"; };
+		90B0502718FAA4AE00E13CE2 /* DTWStory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTWStory.m; sourceTree = "<group>"; };
+		90B0502918FAA50300E13CE2 /* DTWStoryTeller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTWStoryTeller.h; sourceTree = "<group>"; };
+		90B0502A18FAA50300E13CE2 /* DTWStoryTeller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTWStoryTeller.m; sourceTree = "<group>"; };
+		90B0502C18FAA5CD00E13CE2 /* DTWStorySection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTWStorySection.h; sourceTree = "<group>"; };
+		90B0502D18FAA5CD00E13CE2 /* DTWStorySection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTWStorySection.m; sourceTree = "<group>"; };
+		90B0502F18FAA61000E13CE2 /* DTWStoryParagraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTWStoryParagraph.h; sourceTree = "<group>"; };
+		90B0503018FAA61000E13CE2 /* DTWStoryParagraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTWStoryParagraph.m; sourceTree = "<group>"; };
+		90B0503218FAD3F100E13CE2 /* bg1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg1@2x.png"; sourceTree = "<group>"; };
+		90B2269218FA7E0500AACC18 /* Damiaan Twelker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Damiaan Twelker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90B2269518FA7E0500AACC18 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		90B2269718FA7E0500AACC18 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		90B2269918FA7E0500AACC18 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		90B2269D18FA7E0500AACC18 /* Damiaan Twelker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Damiaan Twelker-Info.plist"; sourceTree = "<group>"; };
+		90B2269F18FA7E0500AACC18 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		90B226A118FA7E0500AACC18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		90B226A318FA7E0600AACC18 /* Damiaan Twelker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Damiaan Twelker-Prefix.pch"; sourceTree = "<group>"; };
+		90B226A418FA7E0600AACC18 /* DTWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTWAppDelegate.h; sourceTree = "<group>"; };
+		90B226A518FA7E0600AACC18 /* DTWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTWAppDelegate.m; sourceTree = "<group>"; };
+		90B226A718FA7E0600AACC18 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		90B226AD18FA7E0600AACC18 /* Damiaan TwelkerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Damiaan TwelkerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90B226AE18FA7E0600AACC18 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		90B226B618FA7E0600AACC18 /* Damiaan TwelkerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Damiaan TwelkerTests-Info.plist"; sourceTree = "<group>"; };
+		90B226B818FA7E0600AACC18 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		90B226BA18FA7E0600AACC18 /* Damiaan_TwelkerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Damiaan_TwelkerTests.m; sourceTree = "<group>"; };
+		90B226C418FA7E8E00AACC18 /* DTWStoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTWStoryViewController.h; sourceTree = "<group>"; };
+		90B226C518FA7E8E00AACC18 /* DTWStoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTWStoryViewController.m; sourceTree = "<group>"; };
+		90B226C718FA80F300AACC18 /* bg2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg2@2x.png"; sourceTree = "<group>"; };
+		90B226CA18FA81F700AACC18 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		90B226CB18FA81F700AACC18 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90B2268F18FA7E0500AACC18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				908BA1D218FBEADF005071DA /* MediaPlayer.framework in Frameworks */,
+				908BA1D018FBE786005071DA /* AVFoundation.framework in Frameworks */,
+				90B2269818FA7E0500AACC18 /* CoreGraphics.framework in Frameworks */,
+				90B2269A18FA7E0500AACC18 /* UIKit.framework in Frameworks */,
+				90B2269618FA7E0500AACC18 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90B226AA18FA7E0600AACC18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90B226AF18FA7E0600AACC18 /* XCTest.framework in Frameworks */,
+				90B226B118FA7E0600AACC18 /* UIKit.framework in Frameworks */,
+				90B226B018FA7E0600AACC18 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		907C7E8C18FC9691005EA321 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				907C7E9418FC9875005EA321 /* psg@2x.png */,
+				907C7E9818FC9E26005EA321 /* tweebie@2x.png */,
+				907C7E9A18FC9EDA005EA321 /* twerkball@2x.png */,
+				907C7E9C18FCA003005EA321 /* outlet@2x.png */,
+			);
+			name = Screenshots;
+			sourceTree = "<group>";
+		};
+		907C7E8D18FC9695005EA321 /* Backgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				90B0503218FAD3F100E13CE2 /* bg1@2x.png */,
+				90B226C718FA80F300AACC18 /* bg2@2x.png */,
+				907C7E8E18FC9762005EA321 /* bg3@2x.png */,
+			);
+			name = Backgrounds;
+			sourceTree = "<group>";
+		};
+		908BA1C818FB1573005071DA /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				908BA1C518FB1570005071DA /* NSString+DTWAdditions.h */,
+				908BA1C618FB1570005071DA /* NSString+DTWAdditions.m */,
+				908BA1C918FB20E9005071DA /* CAMediaTimingFunction+DTWAdditions.h */,
+				908BA1CA18FB20E9005071DA /* CAMediaTimingFunction+DTWAdditions.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		90B0502118FA859900E13CE2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				90B0501E18FA859700E13CE2 /* DTWStoryView.h */,
+				90B0501F18FA859700E13CE2 /* DTWStoryView.m */,
+				908BA1DC18FC08D9005071DA /* DTWButton.h */,
+				908BA1DD18FC08D9005071DA /* DTWButton.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		90B0502518FA868100E13CE2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				90B0502C18FAA5CD00E13CE2 /* DTWStorySection.h */,
+				90B0502D18FAA5CD00E13CE2 /* DTWStorySection.m */,
+				90B0502F18FAA61000E13CE2 /* DTWStoryParagraph.h */,
+				90B0503018FAA61000E13CE2 /* DTWStoryParagraph.m */,
+				90B0502618FAA4AE00E13CE2 /* DTWStory.h */,
+				90B0502718FAA4AE00E13CE2 /* DTWStory.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		90B2268918FA7E0500AACC18 = {
+			isa = PBXGroup;
+			children = (
+				90B2269B18FA7E0500AACC18 /* Damiaan Twelker */,
+				90B226B418FA7E0600AACC18 /* Damiaan TwelkerTests */,
+				90B2269418FA7E0500AACC18 /* Frameworks */,
+				90B2269318FA7E0500AACC18 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		90B2269318FA7E0500AACC18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90B2269218FA7E0500AACC18 /* Damiaan Twelker.app */,
+				90B226AD18FA7E0600AACC18 /* Damiaan TwelkerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90B2269418FA7E0500AACC18 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				908BA1D118FBEADF005071DA /* MediaPlayer.framework */,
+				908BA1CF18FBE786005071DA /* AVFoundation.framework */,
+				90B2269518FA7E0500AACC18 /* Foundation.framework */,
+				90B2269718FA7E0500AACC18 /* CoreGraphics.framework */,
+				90B2269918FA7E0500AACC18 /* UIKit.framework */,
+				90B226AE18FA7E0600AACC18 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		90B2269B18FA7E0500AACC18 /* Damiaan Twelker */ = {
+			isa = PBXGroup;
+			children = (
+				90B226A418FA7E0600AACC18 /* DTWAppDelegate.h */,
+				90B226A518FA7E0600AACC18 /* DTWAppDelegate.m */,
+				90B226CD18FA81FF00AACC18 /* External */,
+				908BA1C818FB1573005071DA /* Categories */,
+				90B0502518FA868100E13CE2 /* Model */,
+				90B0502118FA859900E13CE2 /* View */,
+				90B226CF18FA820F00AACC18 /* Controller */,
+				90B226C918FA80F600AACC18 /* Assets */,
+				90B2269C18FA7E0500AACC18 /* Supporting Files */,
+			);
+			path = "Damiaan Twelker";
+			sourceTree = "<group>";
+		};
+		90B2269C18FA7E0500AACC18 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				90B2269D18FA7E0500AACC18 /* Damiaan Twelker-Info.plist */,
+				90B2269E18FA7E0500AACC18 /* InfoPlist.strings */,
+				90B226A118FA7E0500AACC18 /* main.m */,
+				90B226A318FA7E0600AACC18 /* Damiaan Twelker-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		90B226B418FA7E0600AACC18 /* Damiaan TwelkerTests */ = {
+			isa = PBXGroup;
+			children = (
+				90B226BA18FA7E0600AACC18 /* Damiaan_TwelkerTests.m */,
+				90B226B518FA7E0600AACC18 /* Supporting Files */,
+			);
+			path = "Damiaan TwelkerTests";
+			sourceTree = "<group>";
+		};
+		90B226B518FA7E0600AACC18 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				90B226B618FA7E0600AACC18 /* Damiaan TwelkerTests-Info.plist */,
+				90B226B718FA7E0600AACC18 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		90B226C918FA80F600AACC18 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				908BA1DA18FBF678005071DA /* restart-arrow@2x.png */,
+				907C7E9E18FCA0AF005EA321 /* Icon-120@2x.png */,
+				90B226A718FA7E0600AACC18 /* Images.xcassets */,
+				907C7E8D18FC9695005EA321 /* Backgrounds */,
+				907C7E8C18FC9691005EA321 /* Screenshots */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		90B226CD18FA81FF00AACC18 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				90B226CE18FA820400AACC18 /* Image effects */,
+			);
+			name = External;
+			sourceTree = "<group>";
+		};
+		90B226CE18FA820400AACC18 /* Image effects */ = {
+			isa = PBXGroup;
+			children = (
+				90B226CA18FA81F700AACC18 /* UIImage+ImageEffects.h */,
+				90B226CB18FA81F700AACC18 /* UIImage+ImageEffects.m */,
+			);
+			name = "Image effects";
+			sourceTree = "<group>";
+		};
+		90B226CF18FA820F00AACC18 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				90B0502918FAA50300E13CE2 /* DTWStoryTeller.h */,
+				90B0502A18FAA50300E13CE2 /* DTWStoryTeller.m */,
+				90B226C418FA7E8E00AACC18 /* DTWStoryViewController.h */,
+				90B226C518FA7E8E00AACC18 /* DTWStoryViewController.m */,
+				908BA1CC18FBE722005071DA /* DTWVolumeObserver.h */,
+				908BA1CD18FBE722005071DA /* DTWVolumeObserver.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90B2269118FA7E0500AACC18 /* Damiaan Twelker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90B226BE18FA7E0600AACC18 /* Build configuration list for PBXNativeTarget "Damiaan Twelker" */;
+			buildPhases = (
+				90B2268E18FA7E0500AACC18 /* Sources */,
+				90B2268F18FA7E0500AACC18 /* Frameworks */,
+				90B2269018FA7E0500AACC18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Damiaan Twelker";
+			productName = "Damiaan Twelker";
+			productReference = 90B2269218FA7E0500AACC18 /* Damiaan Twelker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		90B226AC18FA7E0600AACC18 /* Damiaan TwelkerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90B226C118FA7E0600AACC18 /* Build configuration list for PBXNativeTarget "Damiaan TwelkerTests" */;
+			buildPhases = (
+				90B226A918FA7E0600AACC18 /* Sources */,
+				90B226AA18FA7E0600AACC18 /* Frameworks */,
+				90B226AB18FA7E0600AACC18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90B226B318FA7E0600AACC18 /* PBXTargetDependency */,
+			);
+			name = "Damiaan TwelkerTests";
+			productName = "Damiaan TwelkerTests";
+			productReference = 90B226AD18FA7E0600AACC18 /* Damiaan TwelkerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90B2268A18FA7E0500AACC18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DTW;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Damiaan Twelker";
+				TargetAttributes = {
+					90B226AC18FA7E0600AACC18 = {
+						TestTargetID = 90B2269118FA7E0500AACC18;
+					};
+				};
+			};
+			buildConfigurationList = 90B2268D18FA7E0500AACC18 /* Build configuration list for PBXProject "Damiaan Twelker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 90B2268918FA7E0500AACC18;
+			productRefGroup = 90B2269318FA7E0500AACC18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90B2269118FA7E0500AACC18 /* Damiaan Twelker */,
+				90B226AC18FA7E0600AACC18 /* Damiaan TwelkerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90B2269018FA7E0500AACC18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				907C7E9918FC9E26005EA321 /* tweebie@2x.png in Resources */,
+				907C7E8F18FC9762005EA321 /* bg3@2x.png in Resources */,
+				907C7E9D18FCA003005EA321 /* outlet@2x.png in Resources */,
+				907C7E9518FC9875005EA321 /* psg@2x.png in Resources */,
+				907C7E9B18FC9EDA005EA321 /* twerkball@2x.png in Resources */,
+				907C7E9F18FCA0AF005EA321 /* Icon-120@2x.png in Resources */,
+				908BA1DB18FBF678005071DA /* restart-arrow@2x.png in Resources */,
+				90B226A018FA7E0500AACC18 /* InfoPlist.strings in Resources */,
+				90B226A818FA7E0600AACC18 /* Images.xcassets in Resources */,
+				90B226C818FA80F300AACC18 /* bg2@2x.png in Resources */,
+				90B0503318FAD3F100E13CE2 /* bg1@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90B226AB18FA7E0600AACC18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90B226B918FA7E0600AACC18 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90B2268E18FA7E0500AACC18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				908BA1DE18FC08D9005071DA /* DTWButton.m in Sources */,
+				90B0502818FAA4AE00E13CE2 /* DTWStory.m in Sources */,
+				908BA1C718FB1570005071DA /* NSString+DTWAdditions.m in Sources */,
+				90B226CC18FA81F700AACC18 /* UIImage+ImageEffects.m in Sources */,
+				90B0502B18FAA50300E13CE2 /* DTWStoryTeller.m in Sources */,
+				90B0502018FA859700E13CE2 /* DTWStoryView.m in Sources */,
+				908BA1CB18FB20E9005071DA /* CAMediaTimingFunction+DTWAdditions.m in Sources */,
+				90B226C618FA7E8E00AACC18 /* DTWStoryViewController.m in Sources */,
+				90B0503118FAA61000E13CE2 /* DTWStoryParagraph.m in Sources */,
+				90B0502E18FAA5CD00E13CE2 /* DTWStorySection.m in Sources */,
+				908BA1CE18FBE722005071DA /* DTWVolumeObserver.m in Sources */,
+				90B226A618FA7E0600AACC18 /* DTWAppDelegate.m in Sources */,
+				90B226A218FA7E0600AACC18 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90B226A918FA7E0600AACC18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90B226BB18FA7E0600AACC18 /* Damiaan_TwelkerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		90B226B318FA7E0600AACC18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90B2269118FA7E0500AACC18 /* Damiaan Twelker */;
+			targetProxy = 90B226B218FA7E0600AACC18 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		90B2269E18FA7E0500AACC18 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90B2269F18FA7E0500AACC18 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		90B226B718FA7E0600AACC18 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90B226B818FA7E0600AACC18 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		90B226BC18FA7E0600AACC18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		90B226BD18FA7E0600AACC18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90B226BF18FA7E0600AACC18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Damiaan Twelker/Damiaan Twelker-Prefix.pch";
+				INFOPLIST_FILE = "Damiaan Twelker/Damiaan Twelker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		90B226C018FA7E0600AACC18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Damiaan Twelker/Damiaan Twelker-Prefix.pch";
+				INFOPLIST_FILE = "Damiaan Twelker/Damiaan Twelker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		90B226C218FA7E0600AACC18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Damiaan Twelker.app/Damiaan Twelker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Damiaan Twelker/Damiaan Twelker-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Damiaan TwelkerTests/Damiaan TwelkerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		90B226C318FA7E0600AACC18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Damiaan Twelker.app/Damiaan Twelker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Damiaan Twelker/Damiaan Twelker-Prefix.pch";
+				INFOPLIST_FILE = "Damiaan TwelkerTests/Damiaan TwelkerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90B2268D18FA7E0500AACC18 /* Build configuration list for PBXProject "Damiaan Twelker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90B226BC18FA7E0600AACC18 /* Debug */,
+				90B226BD18FA7E0600AACC18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90B226BE18FA7E0600AACC18 /* Build configuration list for PBXNativeTarget "Damiaan Twelker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90B226BF18FA7E0600AACC18 /* Debug */,
+				90B226C018FA7E0600AACC18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90B226C118FA7E0600AACC18 /* Build configuration list for PBXNativeTarget "Damiaan TwelkerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90B226C218FA7E0600AACC18 /* Debug */,
+				90B226C318FA7E0600AACC18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90B2268A18FA7E0500AACC18 /* Project object */;
+}
